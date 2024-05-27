@@ -1,0 +1,86 @@
+project:
+  type: book
+
+book:
+  title: "R for Reproducibility"
+  author: "Daniela Palleschi"
+  date: "2/29/2024"
+  chapters:
+    - index.qmd
+    - part: "Conceptualisation"
+      chapters:
+        - intro.qmd
+        - reproducibility.qmd
+        - documentation.qmd
+    - part: "Basic workflow"
+      chapters:
+        - rprojects.qmd
+        - folder_structure.qmd
+        - literate_programming.qmd
+        - code_review.qmd
+    - part: "Research workflow"
+      chapters:
+        - preregistration.qmd
+        - version_control.qmd
+        - storing_results.qmd
+    - part: "Writing"
+      chapters:
+        - publishing.qmd
+        - writing.qmd
+        - collaboration.qmd
+    - summary.qmd
+    - part: "Exercises"
+      chapters:
+        - exercises.qmd
+    - references.qmd
+  appendices:
+    - glossary.qmd
+    - setup_project/setup_project.qmd
+  navbar:
+    right:
+      - icon: home
+        href: https://daniela-palleschi.github.io/
+        text: Dr. D. Palleschi
+      - icon: github
+        href: https://github.com/daniela-palleschi/r4reproducibility
+        aria-label: Source Code
+      - icon: life-preserver
+        href: https://moodle.hu-berlin.de/course/view.php?id=127296
+        text: Moodle
+
+bibliography: references.bib
+csl: apa.csl
+
+crossref:
+  exm-prefix: ex.   # (default is "Figure")
+  # labels: alpha a        # (default is arabic)
+  # subref-labels: alpha t # (default is alpha a)
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    include-after-body: custom.html
+    include-in-header: mathjax.html
+    code-tools: true
+    code-overflow: wrap
+    page-layout: full
+    embed-resources: false
+    theme:
+      light: flatly
+      dark: darkly
+  pdf:
+    documentclass: scrreport
+    toc: true
+    toc-depth: 2
+execute:
+  eval: true
+  echo: true
+  message: false
+  error: false
+  warning: false
+  fig-align: "center"
+  fig-asp: .618
+
+
+

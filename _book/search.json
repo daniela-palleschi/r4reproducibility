@@ -1,0 +1,260 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R for Reproducibility",
+    "section": "",
+    "text": "Preface\nThis web-book is the companion to the course ‘Open Science Practices: Implementing a Reproducible Workflow in R’ (and other iterations) given by Daniela Palleschi at the Humboldt-Universität zu Berlin. The tools discussed in this book are specific to the R enviornment, but the concepts are universal and programming language agnostic.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#aims-of-the-book",
+    "href": "index.html#aims-of-the-book",
+    "title": "R for Reproducibility",
+    "section": "Aims of the book",
+    "text": "Aims of the book\n\nintroduce students to basic concepts of reprodubility and replication in the scope of language research\nteach students how to implement a self-contained project-oriented analysis workflow\nhelp students develop good habits for project/data management\nteach students how to write up analyses for a paper or thesis using dynamic reports\nintroduce students to concepts like version control and containerization",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#what-you-will-not-learn-in-this-book",
+    "href": "index.html#what-you-will-not-learn-in-this-book",
+    "title": "R for Reproducibility",
+    "section": "What you will not learn in this book",
+    "text": "What you will not learn in this book\n\nhow to analyse data\nhow to fit models\nhow to plot data\nhow to design an experiment",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#about-this-book",
+    "href": "index.html#about-this-book",
+    "title": "R for Reproducibility",
+    "section": "About this book",
+    "text": "About this book\nThis book was created using a Quarto Book RProject. The glossary for each chapter was created using the glossary package (DeBruine, 2023). The source code for each chapter is viewable by clicking the &lt;&gt; Code button at the top right of the page. The source code for the whole book is also available via GitHub, and is fully reproducible.\n\n\n\n\n\n\nDeBruine, L. (2023). Glossary: Glossaries for markdown and quarto documents. https://github.com/debruine/glossary",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Open Science Practices",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon! In the meantime, you can view the slides for this topic here (Open Science) and here (Replciation Crisis).",
+    "crumbs": [
+      "Conceptualisation",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Science Practices</span>"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html",
+    "href": "reproducibility.html",
+    "title": "2  Reproducibility",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon! In the meantime, you can view the slides for this topic here (Reproducibility).",
+    "crumbs": [
+      "Conceptualisation",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Reproducibility</span>"
+    ]
+  },
+  {
+    "objectID": "documentation.html",
+    "href": "documentation.html",
+    "title": "3  Documentation",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "Conceptualisation",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "rprojects.html",
+    "href": "rprojects.html",
+    "title": "4  RProjects",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!In the meantime, you can view the slides for this topic here (Rprojects).",
+    "crumbs": [
+      "Basic workflow",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>RProjects</span>"
+    ]
+  },
+  {
+    "objectID": "folder_structure.html",
+    "href": "folder_structure.html",
+    "title": "5  Folder structure",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "Basic workflow",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Folder structure</span>"
+    ]
+  },
+  {
+    "objectID": "literate_programming.html",
+    "href": "literate_programming.html",
+    "title": "6  Writing reproducible code",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!In the meantime, you can view the slides for this topic here (Writing reproducible code) and here (Data wrangling).",
+    "crumbs": [
+      "Basic workflow",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Writing reproducible code</span>"
+    ]
+  },
+  {
+    "objectID": "code_review.html",
+    "href": "code_review.html",
+    "title": "7  Code review",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "Basic workflow",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Code review</span>"
+    ]
+  },
+  {
+    "objectID": "preregistration.html",
+    "href": "preregistration.html",
+    "title": "8  Pre-registration",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "Research workflow",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Pre-registration</span>"
+    ]
+  },
+  {
+    "objectID": "version_control.html",
+    "href": "version_control.html",
+    "title": "9  Version control",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "Research workflow",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Version control</span>"
+    ]
+  },
+  {
+    "objectID": "storing_results.html",
+    "href": "storing_results.html",
+    "title": "10  Storing results",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "Research workflow",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Storing results</span>"
+    ]
+  },
+  {
+    "objectID": "publishing.html",
+    "href": "publishing.html",
+    "title": "11  Publishing your analyses",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "Writing",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Publishing your analyses</span>"
+    ]
+  },
+  {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "12  Writing it up",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "Writing",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing it up</span>"
+    ]
+  },
+  {
+    "objectID": "collaboration.html",
+    "href": "collaboration.html",
+    "title": "13  Collaboration",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "Writing",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Collaboration</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "14  Summary",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "exercises.html",
+    "href": "exercises.html",
+    "title": "15  Exercises",
+    "section": "",
+    "text": "Under construction\n\n\n\nComing soon!",
+    "crumbs": [
+      "Exercises",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Exercises</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "DeBruine, L. (2023). Glossary: Glossaries for markdown and quarto\ndocuments. https://github.com/debruine/glossary",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Appendix A — Glossary",
+    "section": "",
+    "text": "library(tidyverse)\nlibrary(glossary)\nglossary_path(here::here(\"glossary/glossary.yml\"))\n# glossary_persistent(TRUE)\n\n\nx &lt;-\n  readr::read_delim(here::here(\"glossary/glossary.yml\"), col_names = F, delim = \"|\") |&gt; \n  mutate(col = rep(c(\"term\", \"definition\"), times = 4)) |&gt; \n  mutate(X1 = str_replace(X1, ': ', '')) |&gt;\n  mutate(X1 = str_trim(X1)) |&gt; \n  mutate(col = as.factor(col)) |&gt;\n  select(-X2) \n\nglossary_table() |&gt; as_tibble()\n\n# A tibble: 0 × 0",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Glossary</span>"
+    ]
+  },
+  {
+    "objectID": "setup_project/setup_project.html",
+    "href": "setup_project/setup_project.html",
+    "title": "Appendix B — Project setup",
+    "section": "",
+    "text": "B.1 CRAN packages\nYou don’t necessarily need to keep track of these, as usually RStudio will automatically inform you of missing packages used in an Rmd or qmd script (e.g., after updating R). But still useful to keep track\ninstall.packages(\"remotes\")\ninstall.packages(\"devtools\")",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Project setup</span>"
+    ]
+  },
+  {
+    "objectID": "setup_project/setup_project.html#developer-packages",
+    "href": "setup_project/setup_project.html#developer-packages",
+    "title": "Appendix B — Project setup",
+    "section": "B.2 Developer packages",
+    "text": "B.2 Developer packages\n\nB.2.1 Glossary\nSet-up glossary using the glossary package (glossary?). For now I’ll use an as-yet-unreleased version, which includes terms that share first words with other terms (e.g., replication and replication crisis).\n\n# install.packages(\"glossary\")\nremotes::install_github(\"https://github.com/debruine/glossary\")\n\n\nlibrary(glossary)\nglossary_path(\"glossary/glossary.yml\")\n\nAdd a glossary term.\n\nglossary_add(term = \"power\",\n             def = \"The probability of rejecting the null hypothesis when it is false, for a specific analysis, effect size, sample size, and criteria for significance.\"\n)\n\nSet my preferred glossary theme.\n\nglossary_popup(\"click\")\n\nglossary_style(color = \"purple\", \n               text_decoration = \"underline\",\n               def_bg = \"#333\",\n               def_color = \"white\")\n\n\n# append default styles to an external CSS file\nwrite(glossary_style(), \"glossary/glossary.css\", append = TRUE)",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Project setup</span>"
+    ]
+  },
+  {
+    "objectID": "setup_project/setup_project.html#workflow",
+    "href": "setup_project/setup_project.html#workflow",
+    "title": "Appendix B — Project setup",
+    "section": "B.3 Workflow",
+    "text": "B.3 Workflow\n\nB.3.1 renv\nInitialise a lockfile and take a snapshot.\n\n\n\nin the Console\n\n# initialise\nrenv::init()\n\n# take snapshot\nrenv::snapshot()\n\n\nIf it’s been a while since you’re updated your packages, you can update them all with:\n\nrenv::hydrate()\n\n# or\nrenv::update()\n\nIf you’ve recently updated R, you’ll need to re-install your packages. You can simply restore your lockfile.\n\n# restore to your most recent package versions\nrenv::restore()\n\n\n\nB.3.2 rbbt\nInstall rbbt. N.B., if you’re not in a remote RProject and are using renv, this might return an error. To mitigate this, try running renv::deactivate, and renv::activate() to activate it again.\n\ndevtools::install_github(\"paleolimbot/rbbt\")",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Project setup</span>"
+    ]
+  }
+]
