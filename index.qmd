@@ -1,0 +1,28 @@
+# Preface {.unnumbered}
+
+::: {.callout-warning}
+# Under construction {.unnumbered .uncounted .unlisted}
+
+This web-book will serve as a full-length version of the materials for the course 'Open Science Practices: Implementing a Reproducible Workflow in R'. Until it is up-and-running, the slides can be viewed at the following link: [https://daniela-palleschi.github.io/r4repro_SoSe2024/](https://daniela-palleschi.github.io/r4repro_SoSe2024/)
+:::
+
+This web-book is the companion to the course 'Open Science Practices: Implementing a Reproducible Workflow in R' (and other iterations) given by Daniela Palleschi at the Humboldt-Universität zu Berlin. The tools discussed in this book are specific to the R enviornment, but the concepts are universal and programming language agnostic.
+
+## Aims of the book
+
+- introduce students to basic concepts of reprodubility and replication in the scope of language research
+- teach students how to implement a self-contained project-oriented analysis workflow
+- help students develop good habits for project/data management
+- teach students how to write up analyses for a paper or thesis using dynamic reports
+- introduce students to concepts like version control and containerization
+
+## What you will not learn in this book
+
+- how to analyse data
+- how to fit models
+- how to plot data
+- how to design an experiment
+
+## About this book
+
+This book was created using a [Quarto Book RProject](https://quarto.org/docs/books/). The glossary for each chapter was created using the `glossary` package [@glossary-package]. The source code for each chapter is viewable by clicking the `<> Code` button at the top right of the page. The source code for the whole book is also available via GitHub, and is fully reproducible.

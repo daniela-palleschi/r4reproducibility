@@ -1,0 +1,7 @@
+# Writing reproducible code {#sec-repro_code}
+
+::: {.callout-warning}
+# Under construction {.unnumbered .uncounted .unlisted}
+
+Coming soon!In the meantime, you can view the slides for this topic [here (Writing reproducible code)](https://daniela-palleschi.github.io/r4repro_SoSe2024/slides/05-literate_programming/repro_code.html) and [here (Data wrangling)](https://daniela-palleschi.github.io/r4repro_SoSe2024/slides/06-data_wrangling/cleaning.html).
+:::

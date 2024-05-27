@@ -1,0 +1,24 @@
+# Glossary
+
+```{r}
+#| eval: true
+library(tidyverse)
+library(glossary)
+glossary_path(here::here("glossary/glossary.yml"))
+# glossary_persistent(TRUE)
+```
+
+```{r}
+#| eval: true
+x <-
+  readr::read_delim(here::here("glossary/glossary.yml"), col_names = F, delim = "|") |> 
+  mutate(col = rep(c("term", "definition"), times = 4)) |> 
+  mutate(X1 = str_replace(X1, ': ', '')) |>
+  mutate(X1 = str_trim(X1)) |> 
+  mutate(col = as.factor(col)) |>
+  select(-X2) 
+
+glossary_table() |> as_tibble()
+```
+
+

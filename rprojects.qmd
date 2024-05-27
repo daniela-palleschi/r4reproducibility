@@ -1,0 +1,10 @@
+---
+title: "RProjects"
+subtitle: "An ode to self-contained projects"
+---
+
+::: {.callout-warning}
+# Under construction {.unnumbered .uncounted .unlisted}
+
+Coming soon!In the meantime, you can view the slides for this topic [here (Rprojects)](https://daniela-palleschi.github.io/r4repro_SoSe2024/slides/04-rprojects/rprojects.html).
+:::

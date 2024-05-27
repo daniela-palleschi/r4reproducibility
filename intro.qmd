@@ -1,0 +1,9 @@
+# Open Science Practices
+
+::: {.callout-warning}
+## Under construction {.unnumbered .uncounted .unlisted}
+
+Coming soon! In the meantime, you can view the slides for this topic [here (Open Science)](https://daniela-palleschi.github.io/r4repro_SoSe2024/slides/01-open_science/open-science_slides.html#/title-slide) and [here (Replciation Crisis)](https://daniela-palleschi.github.io/r4repro_SoSe2024/slides/02-replication_crisis/replication-crisis_slides.html#/title-slide).
+:::
+
+

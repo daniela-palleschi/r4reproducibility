@@ -1,0 +1,108 @@
+---
+eval: false
+---
+
+# Project setup
+
+## CRAN packages
+
+You don't necessarily need to keep track of these, as usually RStudio will automatically inform you of missing packages used in an Rmd or qmd script (e.g., after updating R). But still useful to keep track
+
+```{r}
+#| eval: false
+install.packages("remotes")
+install.packages("devtools")
+```
+
+## Developer packages
+
+### Glossary
+
+Set-up glossary using the `glossary` package [@glossary]. For now I'll use an as-yet-unreleased version, which includes terms that share first words with other terms (e.g., `replication` and `replication crisis`).
+ 
+```{r}
+#| eval: false
+# install.packages("glossary")
+remotes::install_github("https://github.com/debruine/glossary")
+```
+
+```{r}
+#| eval: false
+library(glossary)
+glossary_path("glossary/glossary.yml")
+```
+
+Add a glossary term.
+
+```{r}
+#| eval: false
+glossary_add(term = "power",
+             def = "The probability of rejecting the null hypothesis when it is false, for a specific analysis, effect size, sample size, and criteria for significance."
+)
+```
+
+Set my preferred glossary theme.
+
+```{r}
+#| eval: false
+
+glossary_popup("click")
+
+glossary_style(color = "purple", 
+               text_decoration = "underline",
+               def_bg = "#333",
+               def_color = "white")
+
+```
+
+
+```{r}
+#| eval: false
+# append default styles to an external CSS file
+write(glossary_style(), "glossary/glossary.css", append = TRUE)
+```
+
+## Workflow
+
+### renv
+
+Initialise a lockfile and take a snapshot.
+
+```{r, filename="in the Console"}
+#| eval: false
+# initialise
+renv::init()
+
+# take snapshot
+renv::snapshot()
+```
+
+If it's been a while since you're updated your packages, you can update them all with:
+
+```{r}
+#| eval: false
+renv::hydrate()
+
+# or
+renv::update()
+```
+
+
+If you've recently updated R, you'll need to re-install your packages. You can simply restore your lockfile.
+
+```{r}
+#| eval: false
+# restore to your most recent package versions
+renv::restore()
+```
+
+
+### rbbt
+
+Install rbbt. N.B., if you're not in a remote RProject and are using renv, this might return an error. To mitigate this, try running `renv::deactivate`, and `renv::activate()` to activate it again.
+
+```{r}
+devtools::install_github("paleolimbot/rbbt")
+```
+
+
